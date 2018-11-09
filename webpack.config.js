@@ -1,17 +1,11 @@
 module.exports = {
-    mode: "development",
-    entry: './entry.js',
-    output: {
-        path: __dirname,
-        filename: 'bundle.js'
-    },
-    module: {
-        rules: [{
-            test: /\.css$/,
-            use: [
-                {loader: 'style-loader'},
-                {loader: 'css-loader'}
-            ]
-        }]
-    }
-}
+  mode: "development",
+  entry: {
+    left: './left.js',
+    right: './right.js'
+  },
+  output: {
+    path: __dirname,
+    filename: '[name].bundle.js'
+  }
+};

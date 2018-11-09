@@ -1,7 +1,5 @@
-Webpack Config File Demo
-========================
-
-Put all settings in `webpack.config.js`
+JavaScript Webpack Multi Entry Multi Output Demo
+================================================
 
 ```
 npm install
