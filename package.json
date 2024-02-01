@@ -1,16 +1,16 @@
 {
-    "scripts": {
-        "start": "webpack && http-server . --cors -o"
-    },
-    "devDependencies": {
-        "@types/lodash": "4.14.118",
-        "css-loader": "^0.23.1",
-        "http-server": "0.11.1",
-        "style-loader": "^0.13.1",
-        "webpack": "^4.17.1",
-        "webpack-cli": "3.1.2"
-    },
-    "dependencies": {
-        "lodash": "4.17.11"
-    }
+  "scripts": {
+    "start": "webpack && http-server . --cors -o"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.118",
+    "css-loader": "0.23.1",
+    "http-server": "0.11.1",
+    "style-loader": "0.13.1",
+    "webpack": "4.17.1",
+    "webpack-cli": "3.1.2"
+  },
+  "dependencies": {
+    "lodash": "4.17.11"
+  }
 }
